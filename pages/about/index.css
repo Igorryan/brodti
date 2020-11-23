@@ -1,0 +1,247 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10% 0;
+}
+
+div#titleAndPictures {
+  width: 80vw;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+div#titleAndPictures img {
+  padding: 10px;
+}
+
+div.line1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.line2 {
+  width: max-content;
+}
+
+div.line2 img {
+  float: left;
+}
+
+div#titleAndPictures h1 {
+  font-size: 36px;
+  width: 50%;
+  font-weight: 700;
+  color: #3B424F;
+}
+
+div#titleAndPictures h1 span {
+  color: #00C795;
+}
+
+div.linksToNavigation a.links {
+  letter-spacing: 0.12em;
+  margin-left: 50px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  z-index: 10000;
+}
+
+div.linksToNavigation a.links:hover {
+  color: rgba(0, 0, 0, .5);
+}
+
+div#content {
+  padding: 50px 10%;
+  height: 100vh;
+}
+
+section div.descriptionArea {
+  margin: 120px auto 0;
+  width: 630px;
+}
+
+section div.descriptionArea p {
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 24px;
+  color: #3B424F;
+}
+
+section div.description p strong {
+  font-weight: bold;
+}
+
+section div.descriptionArea p.spotlight {
+  color: #11CEA2;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 150px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+footer strong {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer p:last-of-type {
+  color: rgba(59, 66, 79, 0.4);
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1110px) {
+  div#titleAndPictures {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div#titleAndPictures img {
+    padding: 0px;
+
+  }
+  div.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+  }
+  div.line1 img {
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+  div#titleAndPictures h1 {
+    font-size: 24px;
+    width: 80%;
+    font-weight: 700;
+    color: #3B424F;
+    margin-bottom: 60px;
+  }
+  div.line2 {
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+  
+  div.line2 img#lineimage1 {
+    width: 72%;
+    margin-right: 2%;
+    margin-left: -13%;
+  }
+  div.line2 img#lineimage2 {
+    width: 38%;
+  }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+  header {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 15px 8%;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  div.linksToNavigation {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    right: 9vw;
+    background-color: transparent;
+  }
+  div.linksToNavigation a.links {
+    letter-spacing: 0.16em;
+    margin-left: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    z-index: 10000;
+  }
+  div.linksToNavigation a.links:hover {
+    letter-spacing: 0.16em;
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .5);
+  }
+  div#content {
+    padding: 50px 10%;
+    height: 100vh;
+  }
+  section div.descriptionArea {
+    margin: 100px auto 0;
+    width: 100%;
+  }
+  section div.descriptionArea p {
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #3B424F;
+  }
+  section div.description p strong {
+    font-weight: bold;
+  }
+  section div.descriptionArea p.spotlight {
+    color: #11CEA2;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  footer {
+    margin-top: 85px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  footer h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  footer strong {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer p:last-of-type {
+    color: rgba(59, 66, 79, 0.4);
+    margin-top: 15px;
+  }
+}

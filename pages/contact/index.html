@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="stylesheet" href="./index.css">
+  <link href="../../styles/global.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../../assets/icons/favicon.svg" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
+  <title>BrodTi - Contact</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="../../index.html"><img id="logo" src="../../assets/logo.svg"></a>
+    
+    <div class="linksToNavigation">
+      <a id="about" class="links" href="../about/index.html">about</a>
+      <a id="contact" class="links" href="./index.html">contact</a>
+    </div>
+  </header>
+
+  <div id="content">
+
+    <section>
+      <div class="description animate__animated animate__fadeIn">
+        <h1>We want to hear you!</h1>
+
+        <strong>Ariol Doe</strong>
+        <p>795 Folsom Ave, Suite 600, San Francisco, CA 94107
+          <br />P: (123) 456-7890<br />
+          admin@brodti.com</p>
+      </div>
+
+      <form class="animate__animated animate__jackInTheBox" action="post">
+        <input id="nameInput" name="name" type="text" placeholder="name">
+        <input id="emailInput" name="email" type="text" placeholder="email">
+        <textarea id="bodyTextInput" name="message" name="" id="" placeholder="message" cols="30" rows="8"></textarea>
+        <div class="send">
+          <span id="result"></span>
+          <button type="button">send</button>
+        </div>
+      </form>
+    </section>
+
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.340648516403!2d-122.40267868492155!3d37.782055819513964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807e0e3b97b5%3A0x2483cdf8ec689a6!2s795%20Folsom%20St%20%23600%2C%20San%20Francisco%2C%20CA%2094107%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1596742444872!5m2!1spt-BR!2sbr"
+    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+    tabindex="0"></iframe>
+
+  <footer>2020 brodTi © all rights reserved</footer>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.js"></script>
+  <script src="./index.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="../src/assets/icons/favicon.svg" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <title>BrodTi</title>
+</head>
+
+<body>
+
+    <div id="content">
+
+        <div value="1" id="slideshow-mobile" class="img">
+        </div>
+
+        <canvas id='stage'></canvas>
+
+        <header>
+            <img id="logo" src="./assets/logo.svg">
+        </header>
+
+        <div value="1" class="animate__animated animate__backInRight animate__backOutRight modal">
+
+          </div>
+
+        <div class="linksToNavigation">
+            <a id="about" class="links" href="./pages/about/index.html">about</a>
+            <a id="contact" class="links" href="./pages/contact/index.html">contact</a>
+        </div>
+
+        <aside>
+            <h2>What drive us?</h2>
+            <!-- <img  src="https://i.ibb.co/2W8VkgZ/What-drive-us.png" alt="whatdriveus"> -->
+            <button class="animate__animated animate__bounce more">
+                <div class="line horizontal">
+                </div>
+                <div class="line vertical"></div>
+              </button>
+        </aside>
+
+        <img class="index" src="./assets/slide/n1-black.png" alt="index image">
+
+        <p class="description">
+        </p>
+
+        <nav value="1" class="prev_next">
+            <button id="prevButton"></button>
+            <button id="nextButton"></button>
+        </nav>
+
+        
+        <nav value="1" class="prev_next" id="responsive">
+          <button id="prevButtonResponsive"></button>
+          <button id="nextButtonResponsive"></button>
+      </nav>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

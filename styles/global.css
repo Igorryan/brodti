@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  line-height: normal;
+  text-decoration: none;
+
+}
+
+body {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button{
+  font-family: 'Rubik', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
